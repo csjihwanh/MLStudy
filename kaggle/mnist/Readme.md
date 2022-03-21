@@ -76,4 +76,26 @@ same to <a href ="#1">2xCNN</a>
 
 maximum accuracy in validation : 98.4%
 
+---
 
+## 2xCNN_BN_lr1e-2
+
+### model
+
+![image](https://user-images.githubusercontent.com/19871043/159218026-46354deb-9d60-40ef-b345-f379d4d338c4.png)
+
+### hyperparameters
+
+* learning rate = 1e-2 (multiplied 0.1 times per every 10000 steps)
+
+* epoch = 16
+* 
+### optimizer 
+
+`torch.optim.SGD`
+
+### loss graph
+
+![2xCNN_BN_lr1e-2](https://user-images.githubusercontent.com/19871043/159218140-6b9e6e4c-3173-49f5-b953-752905acdee1.jpg)
+
+maximum accuracy in validation : 99.4%
