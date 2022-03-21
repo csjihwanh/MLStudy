@@ -64,6 +64,12 @@ same to <a href ="#1">2xCNN</a>
 
 * learning rate = 1e-2 (multiplied 0.1 times per every 2500 steps (each epoch))
 
+* epoch = 11
+
+### optimizer 
+
+`torch.optim.SGD`
+
 ### loss graph
 
 ![2xCNN_NoSoftmax](https://user-images.githubusercontent.com/19871043/159203242-ddc485be-e750-4edd-8e25-15dc38dde9e2.jpg)
