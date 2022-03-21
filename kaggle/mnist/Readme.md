@@ -87,6 +87,8 @@ maximum accuracy in validation : 98.4%
 ### hyperparameters
 
 * learning rate = 1e-2 (multiplied 0.1 times per every 10000 steps)
+* 
+--> if 1e-3 is used as the learning rate, the final accuracy was dropped drastically
 
 * epoch = 16
 
@@ -96,6 +98,13 @@ maximum accuracy in validation : 98.4%
 
 ### loss graph
 
-![2xCNN_BN_lr1e-2](https://user-images.githubusercontent.com/19871043/159218140-6b9e6e4c-3173-49f5-b953-752905acdee1.jpg)
+| ![2xCNN_BN_lr1e-2](https://user-images.githubusercontent.com/19871043/159218140-6b9e6e4c-3173-49f5-b953-752905acdee1.jpg) |
+|:--:| 
+| *when 1e-2 is used for initial learning rate* |
+| maximum accuracy in validation : 99.4% |
 
-maximum accuracy in validation : 99.4%
+
+| ![2xCNN_BN_lr1e-3](https://user-images.githubusercontent.com/19871043/159219195-a6c2c887-223a-4394-a7ab-cd4bea288a6e.jpg) |
+|:--:| 
+| *when 1e-3 is used for initial learning rate* |
+
