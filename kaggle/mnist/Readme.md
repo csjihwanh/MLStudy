@@ -89,7 +89,7 @@ maximum accuracy in validation : 98.4%
 * learning rate = 1e-2 (multiplied 0.1 times per every 10000 steps)
 
 * epoch = 16
-* 
+
 ### optimizer 
 
 `torch.optim.SGD`
