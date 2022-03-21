@@ -74,8 +74,6 @@ same to <a href ="#1">2xCNN</a>
 
 ![2xCNN_NoSoftmax](https://user-images.githubusercontent.com/19871043/159203242-ddc485be-e750-4edd-8e25-15dc38dde9e2.jpg)
 
-### maximum accuracy in validation
-
-98.4%
+maximum accuracy in validation : 98.4%
 
 
