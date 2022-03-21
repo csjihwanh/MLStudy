@@ -22,7 +22,10 @@
 ## 2xCNN
 ### model
 
-![image](https://user-images.githubusercontent.com/19871043/159192088-037cf3f5-a054-4ec8-8089-a26c076066a7.png)
+<div id ="1"></div>
+
+
+![image](https://user-images.githubusercontent.com/19871043/159192088-037cf3f5-a054-4ec8-8089-a26c076066a7.png) 
 
 ### hyperparameters
 
@@ -31,3 +34,20 @@
 ### loss graph
 
 ![2xCNN](https://user-images.githubusercontent.com/19871043/159192122-66810c20-dfd1-474b-ae42-1154e66e9224.jpg)
+
+---
+
+## 2xCNN_LrDecay
+
+### model
+same to <a href ="#1">2xCNN</a>
+
+### hyperparameters
+
+* learning rate = 1e-3 (decayed to 0.1 per every 10000 steps)
+
+### loss graph
+
+![2xCNN_LrDecay](https://user-images.githubusercontent.com/19871043/159196137-2be7215e-4c61-44d7-b7c1-f185f34ec66a.jpg)
+
+
